@@ -10,14 +10,12 @@ class Price {
   int leftSide;
   int rightSide;
 
-  Price() {
-
-  }
-
 public:
   Price(int leftSide, int rightSide) : leftSide(leftSide), rightSide(rightSide) {
 
   }
+
+  Price() = default;
 
   ~Price() = default;
 
